@@ -40,4 +40,5 @@ def copy_execute_file():
     full_name = sys.argv[0]
     shutil.copy(full_name, f"{full_name[:-3]}_copy.py")
 
+
 copy_execute_file()
